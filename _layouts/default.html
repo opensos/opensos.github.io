@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}en{% endif %}">
+
+	<head>
+		{% include head.html %}
+	</head>
+
+	<body>
+
+		
+	
+
+		<main>
+
+			<noscript>
+				<style>
+
+					article .footnotes {
+						display: block;
+					}
+
+				</style>
+			</noscript>
+
+			{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
+		</main>
+
+		{% if content contains 'reversefootnote' %}
+			<aside class="note"></aside>
+			<script async src="/assets/footnotes.js"></script>
+		{% endif %}
+
+		{% if content contains 'twitter-tweet' %}
+			<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		{% endif %}
+
+		<link href="//fonts.googleapis.com/css?family=Fira+Sans:400,700,400italic,700italic|Fira+Mono:400,700" rel="stylesheet">
+	</body>
+	
+	{% include footer.html %}
+	
+</html>

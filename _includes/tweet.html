@@ -1,0 +1,16 @@
+{% if include.lang %}
+	{% assign lang = include.lang %}
+{% else %}
+	{% assign lang = 'en' %}
+{% endif %}
+
+<blockquote class="twitter-tweet" lang="{{ lang }}">
+
+	{% if include.alt %}
+		<p dir="ltr">{{ include.alt }}</p>
+	{% endif %}
+
+	&mdash; <cite>@{{ include.user }}</cite>
+	<a href="https://twitter.com/{{ include.user }}/status/{{ include.id }}"></a>
+
+</blockquote>
