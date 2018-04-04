@@ -18,6 +18,7 @@ sass:
     sass_dir: _includes/sass
 
 #Other
+header: assets/touch-icon.png
 permalink: /:title
 timezone: 
 include: [ 'robots.txt' ]
