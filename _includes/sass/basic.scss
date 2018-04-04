@@ -22,9 +22,15 @@ h2, h3, h4, h5 {
 
 img {
 	max-width: 100%;
-
-
+    display: block;
+    position: relative;
+    left: -50%;
 }
+.parent {
+    position: absolute;
+    left: 50%;
+}
+
 
 time {
 	display: block;
@@ -479,4 +485,5 @@ section {
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
 }
+
 	
