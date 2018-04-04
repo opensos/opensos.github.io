@@ -1,10 +1,10 @@
 body {
-	font-family: Rubik, Menlo, Andale Mono, Courier,  sans-serif;
+	font-family: 'Menlo', Andale Mono, Courier,  sans-serif;
 	#background: #2727a4;
 	padding: 20px;
 	margin: 0;
 	font-weight: 400;
-	#text-align: center;
+	text-align: center;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 
@@ -17,7 +17,9 @@ body {
 }
 
 h2, h3, h4, h5 {
+#font-size: 0.8em;
 	margin: 45px 0 25px;
+	
 }
 
 img {
@@ -27,6 +29,7 @@ img {
 }
 
 time {
+font-size: 0.8em;
 	display: block;
 }
 
@@ -58,14 +61,14 @@ blockquote {
 }
 
 span[data-note] {
-	font-size: 0.8em;
+	font-size: 0.7em;
 	#font-size: 11px;
 	background: #c1c1c1;
 	color: #fff;
 	font-weight: 700;
 	display: inline-block;
 	padding: 0 1.3em;
-	#border-radius: 10px;
+	border-radius: 10px;
 	vertical-align: middle;
 	line-height: 18px;
 	cursor: pointer;
@@ -108,7 +111,7 @@ span[data-note] {
 	-webkit-transition-timing-function: ease;
 	transform: translateY( calc( 100% + 8px ) );
 	-webkit-transform: translateY( calc( 100% + 8px ) );
-	font-size: 0.8em;
+	font-size: 0.7em;
 	line-height: 1.7em;
 	width: 100%;
 	box-sizing: border-box;
@@ -155,7 +158,7 @@ span[data-note] {
 		font-weight: 700;
 		height: 75px;
 		width: 75px;
-		font-size: 1.0em;
+		font-size: 0.7em;
 		#font-size: 1.3em;
 		border-radius: 75px;
 		display: inline-block;
@@ -206,11 +209,12 @@ ul, ol {
 	li {
 		word-wrap: break-word;
 		margin: 15px 0;
-		font-size: 0.8em;
+		font-size: 0.7em;
+		
 	}
 
 	img {
-		margin: 40px 0;
+		margin: 30px 0 10px;
 		#border-radius: 5px;
 	}
 
@@ -228,7 +232,7 @@ code {
 	background: #1a1a1a;
 	padding: 2px 6px;
 	font-family: 'Nitti Px', monospace;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	color: #ffffff;
 	
 }
@@ -270,6 +274,8 @@ iframe {
 	width: 100%;
 }
 
+footer {
+	font-size: 0.5em
 article {
 
 
@@ -278,7 +284,7 @@ article {
 	margin: auto;
 	#position: absolute;
 	left: 0; right: 0;
-
+  
 	h1 {
 		font-family: Rubik, Menlo, Andale Mono, Courier,  sans-serif;
 		line-height: 1.4em;
@@ -295,7 +301,7 @@ article {
 	}
 
 	p {
-		font-size: 0.8em;
+		font-size: 0.7em;
 		line-height: 1.9em;
 		word-wrap: break-word;
 	}
@@ -311,7 +317,7 @@ article {
 			content: "<<";
 			margin-right: 5px;
 			color: #000;
-			font-size: 1.3em;
+			font-size: 1.0em;
 		}
 
 	}
@@ -374,7 +380,8 @@ section {
 
 		li {
 			margin: 25px 0;
-			font-size: 0.8em;
+			font-size: 0.7em;
+			color: #999999;
 
 			a {
 				text-decoration: none;
@@ -468,4 +475,47 @@ section {
         url('http://kona.my/assets/fonts/NittiPX-Normal.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+
+#test p {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
