@@ -6,6 +6,7 @@ layout: default
 	<ul>
 			<li>
 			<a href='/'>no bullshit</a>
+			{{ post.title }}
 			</li>
 
 		{% for post in site.posts %}
@@ -13,9 +14,7 @@ layout: default
 			
 			<article><div id="test">
 			
-      
-    
-{{ post.title }}	
+      	
 {{ post.content }}
 
 
