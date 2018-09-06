@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section>
+	<ul>
+			<li>
+			<a href='/'>no bullshit</a>
+			</li>
+
+		  {% for post in site.posts %}
+  <article><div id="test">
+ 
+    {{ post.content }}
+	<li>{{ page.date | date: '%B %-d, %Y' }}</li>
+  </div></article>
+{% endfor %}
+
+	</ul>
+</section>
+

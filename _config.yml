@@ -1,0 +1,45 @@
+# General
+name: opensos weblog
+description: Small note
+url: http://opensos.github.com/buk
+google_verify: 
+baseurl: /buk
+author:
+    name: opensos
+    email: rushidil@gmail.com
+    url: http://opensos.github.com/buk
+
+# Build
+markdown: kramdown
+kramdown:
+    input: GFM
+sass:
+    style: :expanded
+    sass_dir: _includes/sass
+
+#Other
+permalink: /:title
+timezone: 
+include: [ 'robots.txt' ]
+exclude: [ 'LICENSE', 'README.md', 'CNAME', 'vendor', 'Gemfile' ]
+gems:
+    - jekyll-sitemap
+    - jekyll-feed
+
+# Self explaining
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "null"
+  -
+    scope:
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
