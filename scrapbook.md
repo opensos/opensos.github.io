@@ -3,7 +3,7 @@ title: Scrapbook
 permalink: /scrapbook/
 ---
 
-![sicha]({{ site.url }}/assets/img/sch.png)
+
 ![Hejne]({{ site.url }}/assets/img/hejne.JPG)
 
 HEJNE
