@@ -31,3 +31,8 @@ Simple wardrobe made by [kedaico](https://www.instagram.com/kedai_co/)
 * * *
 ![card]({{ site.url }}/assets/img/kona_card.jpg)
 
+* * *
+![cabinet]({{ site.url }}/assets/img/lubang_kabinet.png)
+
+Nice idea
+
