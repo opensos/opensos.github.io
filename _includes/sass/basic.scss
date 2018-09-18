@@ -1,5 +1,5 @@
 body {
-	font-family: Menlo, Rubik, Andale Mono, Courier,  sans-serif;
+	font-family: 'Source Code Pro', monospace, Menlo;
 	#background: #2727a4;
 	padding: 20px;
 	margin: 0;
@@ -444,6 +444,8 @@ section {
 	}
 
 }
+
+
 @font-face {
 	font-family: 'Menlo';
 	src: url('http://kona.my/assets/fonts/Menlo-Regular.eot');
