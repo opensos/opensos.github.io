@@ -5,7 +5,7 @@ date: 2020-01-10 16:11
 
 ##### Install .NET Framework using Windows 10 Installation media
 
-First enable Power Shell
+First enable Power Shell if it is disabled
 
 Type Gpedit.msc
 
