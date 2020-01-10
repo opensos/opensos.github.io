@@ -27,5 +27,5 @@ Type powershell in Windows Search and right-click on PowerShell then select Run 
 
 Next, type the following command into powershell window:
 ```
-`dism.exe /online /enable-feature /featurename:NetFX3 /All /Source:c:\temp\sxs /LimitAccess`
+dism.exe /online /enable-feature /featurename:NetFX3 /All /Source:c:\temp\sxs /LimitAccess
 ```
