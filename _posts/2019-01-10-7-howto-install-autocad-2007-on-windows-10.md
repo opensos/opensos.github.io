@@ -29,3 +29,5 @@ Next, type the following command into powershell window:
 ```
 dism.exe /online /enable-feature /featurename:NetFX3 /All /Source:c:\temp\sxs /LimitAccess
 ```
+
+Then install Autocad 2007 as usual.
