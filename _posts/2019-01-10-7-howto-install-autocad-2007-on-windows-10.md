@@ -11,6 +11,8 @@ Type Gpedit.msc
 
 Go to ***User Configuration\Administrative Templates\System***
 
+Don't run specified Windows applications
+
 Click Disable
 
 1.Create a temporary folder called Temp under C: directory. The complete address of the directory would be C:\Temp.
