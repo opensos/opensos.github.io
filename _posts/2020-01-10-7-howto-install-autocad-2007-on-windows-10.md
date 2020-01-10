@@ -1,6 +1,6 @@
 ﻿---
 title: How To Install Autocad 2007 On Windows 10
-date: 2017-03-03 16:11
+date: 2020-01-10 16:11
 ---
 
 ### Install .NET Framework using Windows 10 Installation media
