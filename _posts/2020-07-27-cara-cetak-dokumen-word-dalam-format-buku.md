@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 Perisian Microsoft Word sememangnya telah hadir dengan fungsi untuk mencipta dan mencetak dokumen dalam paparan sebuah buku. Kepada yang masih belum tahu, berikut kami kongsikan caranya.
