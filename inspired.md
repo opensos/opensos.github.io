@@ -34,4 +34,7 @@ warghhh!!
 ![pahang]({{ site.url }}/assets/img/hh.jpg)
 
 Pahang
+* * *
+![pahang]({{ site.url }}/assets/img/Black-Friday-Sale-2020.jpg)
 
+Black Friday Sale
