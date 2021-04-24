@@ -1,13 +1,13 @@
 # General
 name: opensos weblog
 description: Small note
-url: http://opensos.github.com
+url: http://opensos.github.io
 google_verify: 
 
 author:
     name: opensos
     email: rushidil@gmail.com
-    url: http://opensos.github.com
+    url: http://opensos.github.io
 
 # Build
 markdown: kramdown
