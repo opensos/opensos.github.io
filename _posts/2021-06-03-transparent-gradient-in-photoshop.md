@@ -12,6 +12,6 @@ How to achieve transparent gradient in photoshop
 
 4. Go to your image then click at below and above image
 
-![Before]({{ site.url }}/assets/img/vaccine-original.jpg)
+![Before]({{ site.url }}/assets/img/vaccine-original.jpeg)
 
 ![After]({{ site.url }}/assets/img/vaccine-after.jpg)
