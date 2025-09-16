@@ -1,8 +1,6 @@
 ---
 published: true
 ---
-<h3>Basic computer & laptop troubleshooting guide.</h3>
-
 This guide is designed to help you identify and fix common problems on computers step bu step, without needing advanced technical skills.
 
 <h4>First thing to check</h4>
